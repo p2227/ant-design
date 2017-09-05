@@ -72,7 +72,7 @@ The properties of the object are follows:
 | iconType   | Type of Icon component    | string | question-circle |
 | okText     | Text of OK button    | string           | OK       |
 | cancelText | Text of cancel button    | string           | Cancel       |
-| maskClosable | Determine whether to close the modal dialog when clicked mask of it. | Boolean   | `false`       |
+| maskClosable | Determine whether to close the modal dialog when clicked mask of it. | Boolean   | `true`       |
 
 All the `Modal.method`s will return a reference, and then we can close the popup by the reference.
 
